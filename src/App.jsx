@@ -11,9 +11,9 @@ function App() {
 
   return (
     <>
-      <div className='bg-white p-10 rounded-lg space-y-3'>
-        <h1 className='text-4xl font-bold'>Random Number Generator</h1>
-        <h4 className='text-xl text-wrap'>Click the button to generate and display a random number</h4>
+      <div className='w-full bg-white p-10 px-5 rounded-lg space-y-3'>
+        <h1 className='lg:text-4xl text-2xl font-bold'>Random Number Generator</h1>
+        <h4 className='lg:text-xl text-wrap'>Click the button to generate and display a random number</h4>
         <button onClick={generateRandomNumber} className="bg-[#5272EB] text-white p-2 text-xl rounded">
           Generate Random Number
         </button>
